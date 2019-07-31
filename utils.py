@@ -4,6 +4,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.colors
 
+# Author : Charles Coster
+# Date of Creation: 07-2019
+# Description: utility function for GA main and GA class functions
+# Version: 1.0
+
 def get_stats(sol_set) : 
     value = []
     for sol in sol_set :
